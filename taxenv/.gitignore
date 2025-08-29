@@ -1,0 +1,56 @@
+.env
+data/
+taxenv/
+
+node_modules는 설치 라이브러리라서 무시
+node_modules/
+
+환경 변수 파일
+.env
+
+빌드 결과물
+dist/
+build/
+
+OS/IDE 관련 파일
+.DS_Store
+*.log
+.idea/
+
+data/
+
+--- Python 관련 ---
+pycache/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+--- 가상환경 ---
+taxenv/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+--- Jupyter Notebook ---
+.ipynb_checkpoints/
+
+--- 환경변수 및 설정 ---
+.env
+*.cfg
+
+--- 로그/캐시 ---
+*.log
+*.sqlite3
+
+--- 데이터/문서 (원하는 경우 제외 가능) ---
+data/
+*.docx
+
+--- IDE/OS 파일 ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
